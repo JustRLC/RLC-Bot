@@ -2,7 +2,7 @@
 
     //Custom Vars
         
-    var resolver = "http://skypegrab.net/api.php?key=8yBZF9adVSbouYsr0x&username=";
+    var resolver = "";
 
     //Define our function responsible for extending the bot.
     function extend() {
