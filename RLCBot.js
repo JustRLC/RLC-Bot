@@ -94,7 +94,7 @@
                 	//API.sendChat("/me yes");
                 	var msg = chat.message;
                 	var argument = msg.substring(cmd.length + 1);
-                	var resolveaddr = "http://skypegrab.net/api.php?key=8yBZF9adVSbouYsr0x&username=" + argument;
+                	var resolveaddr = "" + argument;
                     //API.sendChat("/me " + resolveaddr);
                     $.ajax({
    					type:     "GET",
