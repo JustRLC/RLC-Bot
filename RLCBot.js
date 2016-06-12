@@ -134,7 +134,7 @@
 	var fork = "";
 	
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "RataFari-b0t",
+        botName: "RLCBot",
         language: "english",
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
         startupCap: 1, // 1-200
