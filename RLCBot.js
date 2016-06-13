@@ -119,6 +119,7 @@
         botName: "RLCBot",
         language: "english",
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
+		cmdLink: "http://community.rlcnetwork.com/commands.php",
         startupCap: 1, // 1-200
         startupVolume: 100, // 0-100
         startupEmoji: true, // true or false
@@ -180,6 +181,6 @@
     }));
 
     //Start the bot and extend it when it has loaded.
-    $.getScript("https://rawgit.com/RLCDuBz/RLC-Bot/master/basicBot.js", extend);
+    $.getScript("https://rawgit.com/Yemasthui/basicBot/master/basicBot.js", extend);
 
 }).call(this);
