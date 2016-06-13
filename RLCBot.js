@@ -159,7 +159,7 @@
         afkRankCheck: "ambassador",
         motdEnabled: true,
         motdInterval: 15,
-        motd: "Temporary Message of the Day",
+        motd: "If guys haven't already put this community as one of your favorites, make sure you do. You might even miss us! https://gyazo.com/9d5a3ca971b9490efe65a4257fc8517a",
         filterChat: true,
         etaRestriction: false,
         welcome: true,
