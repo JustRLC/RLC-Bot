@@ -117,6 +117,19 @@
                 }
             }
         };
+		
+		bot.commands.edmCommand = {
+            command: 'edm',  //The command to be called. With the standard command literal this would be: !rastaresolve
+            rank: 'user', //Minimum user permission to use the command
+            type: 'exact', //Specify if it can accept variables or not (if so, these have to be handled yourself through the chat.message
+            functionality: function (chat, cmd) {
+                if (this.type === 'startsWith' && chat.message.length !== cmd.length) return void (0);
+                if (!bot.commands.executable(this.rank, chat)) return void (0);
+                else {
+                    API.sendChat("/me If you don't know what EDM is, go to this site for more information: https://en.wikipedia.org/wiki/Electronic_dance_music ");
+                }
+            }
+        };
 
 
         //Load the chat package again to account for any changes
